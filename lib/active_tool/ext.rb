@@ -1,0 +1,6 @@
+require "active_tool/ext/hash"
+require "active_tool/ext/string"
+require "active_tool/ext/array"
+require "active_tool/ext/fixnum"
+require "active_tool/ext/zip"
+require "active_tool/ext/module"
