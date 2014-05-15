@@ -129,7 +129,13 @@ module ActiveTool
         end
         
         docs
-      end  
+      end 
+
+ 			def delete_all
+				coll.find.each do |doc|
+					coll.remove(doc)
+				end
+			end
       
       def all
         docs = []
