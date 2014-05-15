@@ -143,7 +143,11 @@ module ActiveTool
           docs << self.new(doc)
         end
         docs
-      end  
+      end 
+
+ 			def count
+				self.all.size
+			end
     end
   end
 end
