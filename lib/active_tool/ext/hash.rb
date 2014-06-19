@@ -25,13 +25,5 @@ class Hash
     end
     
     false
-  end
-  
-  def to_buffer
-    if self[:id]
-      GameMessage.new(self[:id], self[:data]).to_buffer
-    else
-      self.to_json
-    end
-  end
+  end  
 end
